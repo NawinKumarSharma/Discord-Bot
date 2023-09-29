@@ -39,7 +39,4 @@ client.on('interactionCreate', (interaction) => {
   interaction.reply("Pong!");
 })
 
-client.login(
-  "MTE1NjQ0MTIxODg1NTc0MzU54dsx3Mw.GQ8oCd.6qY7us1yi2sBVW5ssUjqpfINCx1DSxJ-5dthbS8"
-  //you need to use your own token . 
-)
+client.login(process.env.DISCORD_TOKEN);
