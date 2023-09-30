@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
 import { Client, GatewayIntentBits } from "discord.js";
-import { getRandomJoke } from "./jokes.js";
+import { getRandomJoke } from "./src/jokes.js"
 
 dotenv.config();
 
